@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #4ecbee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#gameCanvas {
+  display: block;
+  display: block;
+  border: 2px solid #000;
+  background-color: #70c5ce;
+  border: 2px solid #000;
+  background-color: #70c5ce;
+}
+
+#overlay {
+  position: absolute;
+  width: 100%;
+  max-width: 480px;
+  height: 640px;
+  pointer-events: none;
+}
+
+button {
+  pointer-events: all;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  font-size: 18px;
+  background: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#score {
+  pointer-events: none;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
+}
