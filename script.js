@@ -5,8 +5,8 @@ const bgScrollSpeed = 1.5; // Kecepatan geser background
 
 //lagu disini
 const music = new Audio("sounds/backgroundsound.mp3");
-const flapSound = new Audio("sounds/Jumpsound.mp3");
-const hitSound = new Audio("sounds/Hitsound.mp3");
+const flapSound = new Audio("sounds/luncat.mp3");
+const hitSound = new Audio("sounds/Hit.mp3");
 
 // Optional: Set properti
 music.loop = true;
